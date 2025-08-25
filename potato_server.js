@@ -7,6 +7,8 @@ app.use(express.static('public'))
 
 //use basic routes
 app.use('/', require('./routes/basicRoutes'))
+//use blog router
+app.use('/blog', require('./routes/blogRoutes'))
 
 app.listen(port, () => {
     console.log("potato developer server listening on port ${port}")
