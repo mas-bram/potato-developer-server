@@ -7,7 +7,7 @@ const pool = mysql.createPool({
   host: "localhost", // or 127.0.0.1
   user: "root", // your MySQL username
   password: "", // your MySQL password
-  database: "testdb", // your database name
+  database: "potato_server", // your database name
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
